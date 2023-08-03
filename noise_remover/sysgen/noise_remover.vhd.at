@@ -1,0 +1,847 @@
+{
+  'Line_1004' => {
+    'CodeInstance' => 'noise_remover_struct/wavelet/subsystem2/noise_canceler',
+    'Instance' => 'noise_canceler',
+    'SimulinkInstance' => 'noise_canceler'
+  },
+  'Line_1011' => {
+    'CodeInstance' => 'noise_remover_struct/wavelet/subsystem2/addsub1',
+    'Instance' => 'addsub1',
+    'SimulinkInstance' => 'noise_remover/Wavelet/Subsystem2/AddSub1'
+  },
+  'Line_103' => {
+    'CodeInstance' => 'noise_remover_struct/wavelet/subsystem1/noise_canceler/th/constant1',
+    'Instance' => 'constant1',
+    'SimulinkInstance' => 'noise_remover/Wavelet/Subsystem1/noise_canceler/th/Constant1'
+  },
+  'Line_1042' => {
+    'CodeInstance' => 'noise_remover_struct/wavelet/subsystem2/addsub2',
+    'Instance' => 'addsub2',
+    'SimulinkInstance' => 'noise_remover/Wavelet/Subsystem2/AddSub2'
+  },
+  'Line_1073' => {
+    'CodeInstance' => 'noise_remover_struct/wavelet/subsystem2/addsub3',
+    'Instance' => 'addsub3',
+    'SimulinkInstance' => 'noise_remover/Wavelet/Subsystem2/AddSub3'
+  },
+  'Line_110' => {
+    'CodeInstance' => 'noise_remover_struct/wavelet/subsystem1/noise_canceler/th/constant2',
+    'Instance' => 'constant2',
+    'SimulinkInstance' => 'noise_remover/Wavelet/Subsystem1/noise_canceler/th/Constant2'
+  },
+  'Line_1104' => {
+    'CodeInstance' => 'noise_remover_struct/wavelet/subsystem2/addsub4',
+    'Instance' => 'addsub4',
+    'SimulinkInstance' => 'noise_remover/Wavelet/Subsystem2/AddSub4'
+  },
+  'Line_1135' => {
+    'CodeInstance' => 'noise_remover_struct/wavelet/subsystem2/addsub5',
+    'Instance' => 'addsub5',
+    'SimulinkInstance' => 'noise_remover/Wavelet/Subsystem2/AddSub5'
+  },
+  'Line_1166' => {
+    'CodeInstance' => 'noise_remover_struct/wavelet/subsystem2/convert5',
+    'Instance' => 'convert5',
+    'SimulinkInstance' => 'noise_remover/Wavelet/Subsystem2/Convert5'
+  },
+  'Line_117' => {
+    'CodeInstance' => 'noise_remover_struct/wavelet/subsystem1/noise_canceler/th/convert5',
+    'Instance' => 'convert5',
+    'SimulinkInstance' => 'noise_remover/Wavelet/Subsystem1/noise_canceler/th/Convert5'
+  },
+  'Line_1187' => {
+    'CodeInstance' => 'noise_remover_struct/wavelet/subsystem2/delay1',
+    'Instance' => 'delay1',
+    'SimulinkInstance' => 'noise_remover/Wavelet/Subsystem2/Delay1'
+  },
+  'Line_1202' => {
+    'CodeInstance' => 'noise_remover_struct/wavelet/subsystem2/delay2',
+    'Instance' => 'delay2',
+    'SimulinkInstance' => 'noise_remover/Wavelet/Subsystem2/Delay2'
+  },
+  'Line_1217' => {
+    'CodeInstance' => 'noise_remover_struct/wavelet/subsystem2/delay3',
+    'Instance' => 'delay3',
+    'SimulinkInstance' => 'noise_remover/Wavelet/Subsystem2/Delay3'
+  },
+  'Line_1232' => {
+    'CodeInstance' => 'noise_remover_struct/wavelet/subsystem2/delay4',
+    'Instance' => 'delay4',
+    'SimulinkInstance' => 'noise_remover/Wavelet/Subsystem2/Delay4'
+  },
+  'Line_1247' => {
+    'CodeInstance' => 'noise_remover_struct/wavelet/subsystem2/delay6',
+    'Instance' => 'delay6',
+    'SimulinkInstance' => 'noise_remover/Wavelet/Subsystem2/Delay6'
+  },
+  'Line_1262' => {
+    'CodeInstance' => 'noise_remover_struct/wavelet/subsystem2/scale2',
+    'Instance' => 'scale2',
+    'SimulinkInstance' => 'noise_remover/Wavelet/Subsystem2/Scale2'
+  },
+  'Line_1303' => {
+    'CodeInstance' => 'noise_remover_struct/wavelet/subsystem3/noise_canceler/th/absolute',
+    'Instance' => 'absolute',
+    'SimulinkInstance' => 'noise_remover/Wavelet/Subsystem3/noise_canceler/th/Absolute'
+  },
+  'Line_1311' => {
+    'CodeInstance' => 'noise_remover_struct/wavelet/subsystem3/noise_canceler/th/addsub',
+    'Instance' => 'addsub',
+    'SimulinkInstance' => 'noise_remover/Wavelet/Subsystem3/noise_canceler/th/AddSub'
+  },
+  'Line_1342' => {
+    'CodeInstance' => 'noise_remover_struct/wavelet/subsystem3/noise_canceler/th/addsub1',
+    'Instance' => 'addsub1',
+    'SimulinkInstance' => 'noise_remover/Wavelet/Subsystem3/noise_canceler/th/AddSub1'
+  },
+  'Line_1373' => {
+    'CodeInstance' => 'noise_remover_struct/wavelet/subsystem3/noise_canceler/th/constant1',
+    'Instance' => 'constant1',
+    'SimulinkInstance' => 'noise_remover/Wavelet/Subsystem3/noise_canceler/th/Constant1'
+  },
+  'Line_138' => {
+    'CodeInstance' => 'noise_remover_struct/wavelet/subsystem1/noise_canceler/th/mux',
+    'Instance' => 'mux',
+    'SimulinkInstance' => 'noise_remover/Wavelet/Subsystem1/noise_canceler/th/Mux'
+  },
+  'Line_1380' => {
+    'CodeInstance' => 'noise_remover_struct/wavelet/subsystem3/noise_canceler/th/constant2',
+    'Instance' => 'constant2',
+    'SimulinkInstance' => 'noise_remover/Wavelet/Subsystem3/noise_canceler/th/Constant2'
+  },
+  'Line_1387' => {
+    'CodeInstance' => 'noise_remover_struct/wavelet/subsystem3/noise_canceler/th/convert5',
+    'Instance' => 'convert5',
+    'SimulinkInstance' => 'noise_remover/Wavelet/Subsystem3/noise_canceler/th/Convert5'
+  },
+  'Line_1408' => {
+    'CodeInstance' => 'noise_remover_struct/wavelet/subsystem3/noise_canceler/th/mux',
+    'Instance' => 'mux',
+    'SimulinkInstance' => 'noise_remover/Wavelet/Subsystem3/noise_canceler/th/Mux'
+  },
+  'Line_1418' => {
+    'CodeInstance' => 'noise_remover_struct/wavelet/subsystem3/noise_canceler/th/register_x0',
+    'Instance' => 'register_x0',
+    'SimulinkInstance' => 'noise_remover/Wavelet/Subsystem3/noise_canceler/th/Register'
+  },
+  'Line_1431' => {
+    'CodeInstance' => 'noise_remover_struct/wavelet/subsystem3/noise_canceler/th/relational1',
+    'Instance' => 'relational1',
+    'SimulinkInstance' => 'noise_remover/Wavelet/Subsystem3/noise_canceler/th/Relational1'
+  },
+  'Line_1440' => {
+    'CodeInstance' => 'noise_remover_struct/wavelet/subsystem3/noise_canceler/th/shift2',
+    'Instance' => 'shift2',
+    'SimulinkInstance' => 'noise_remover/Wavelet/Subsystem3/noise_canceler/th/Shift2'
+  },
+  'Line_148' => {
+    'CodeInstance' => 'noise_remover_struct/wavelet/subsystem1/noise_canceler/th/register_x0',
+    'Instance' => 'register_x0',
+    'SimulinkInstance' => 'noise_remover/Wavelet/Subsystem1/noise_canceler/th/Register'
+  },
+  'Line_1480' => {
+    'CodeInstance' => 'noise_remover_struct/wavelet/subsystem3/noise_canceler/th',
+    'Instance' => 'th',
+    'SimulinkInstance' => 'Subsystem3/noise_canceler/th'
+  },
+  'Line_1487' => {
+    'CodeInstance' => 'noise_remover_struct/wavelet/subsystem3/noise_canceler/addsub1',
+    'Instance' => 'addsub1',
+    'SimulinkInstance' => 'noise_remover/Wavelet/Subsystem3/noise_canceler/AddSub1'
+  },
+  'Line_1518' => {
+    'CodeInstance' => 'noise_remover_struct/wavelet/subsystem3/noise_canceler/addsub2',
+    'Instance' => 'addsub2',
+    'SimulinkInstance' => 'noise_remover/Wavelet/Subsystem3/noise_canceler/AddSub2'
+  },
+  'Line_1549' => {
+    'CodeInstance' => 'noise_remover_struct/wavelet/subsystem3/noise_canceler/bitbasher',
+    'Instance' => 'bitbasher',
+    'SimulinkInstance' => 'noise_remover/Wavelet/Subsystem3/noise_canceler/BitBasher'
+  },
+  'Line_1558' => {
+    'CodeInstance' => 'noise_remover_struct/wavelet/subsystem3/noise_canceler/constant2',
+    'Instance' => 'constant2',
+    'SimulinkInstance' => 'noise_remover/Wavelet/Subsystem3/noise_canceler/Constant2'
+  },
+  'Line_1565' => {
+    'CodeInstance' => 'noise_remover_struct/wavelet/subsystem3/noise_canceler/inverter',
+    'Instance' => 'inverter',
+    'SimulinkInstance' => 'noise_remover/Wavelet/Subsystem3/noise_canceler/Inverter'
+  },
+  'Line_1573' => {
+    'CodeInstance' => 'noise_remover_struct/wavelet/subsystem3/noise_canceler/mux',
+    'Instance' => 'mux',
+    'SimulinkInstance' => 'noise_remover/Wavelet/Subsystem3/noise_canceler/Mux'
+  },
+  'Line_1585' => {
+    'CodeInstance' => 'noise_remover_struct/wavelet/subsystem3/noise_canceler/relational',
+    'Instance' => 'relational',
+    'SimulinkInstance' => 'noise_remover/Wavelet/Subsystem3/noise_canceler/Relational'
+  },
+  'Line_1594' => {
+    'CodeInstance' => 'noise_remover_struct/wavelet/subsystem3/noise_canceler/relational1',
+    'Instance' => 'relational1',
+    'SimulinkInstance' => 'noise_remover/Wavelet/Subsystem3/noise_canceler/Relational1'
+  },
+  'Line_161' => {
+    'CodeInstance' => 'noise_remover_struct/wavelet/subsystem1/noise_canceler/th/relational1',
+    'Instance' => 'relational1',
+    'SimulinkInstance' => 'noise_remover/Wavelet/Subsystem1/noise_canceler/th/Relational1'
+  },
+  'Line_1639' => {
+    'CodeInstance' => 'noise_remover_struct/wavelet/subsystem3/noise_canceler',
+    'Instance' => 'noise_canceler',
+    'SimulinkInstance' => 'Subsystem3/noise_canceler'
+  },
+  'Line_1646' => {
+    'CodeInstance' => 'noise_remover_struct/wavelet/subsystem3/addsub1',
+    'Instance' => 'addsub1',
+    'SimulinkInstance' => 'noise_remover/Wavelet/Subsystem3/AddSub1'
+  },
+  'Line_1677' => {
+    'CodeInstance' => 'noise_remover_struct/wavelet/subsystem3/addsub2',
+    'Instance' => 'addsub2',
+    'SimulinkInstance' => 'noise_remover/Wavelet/Subsystem3/AddSub2'
+  },
+  'Line_170' => {
+    'CodeInstance' => 'noise_remover_struct/wavelet/subsystem1/noise_canceler/th/shift2',
+    'Instance' => 'shift2',
+    'SimulinkInstance' => 'noise_remover/Wavelet/Subsystem1/noise_canceler/th/Shift2'
+  },
+  'Line_1708' => {
+    'CodeInstance' => 'noise_remover_struct/wavelet/subsystem3/addsub3',
+    'Instance' => 'addsub3',
+    'SimulinkInstance' => 'noise_remover/Wavelet/Subsystem3/AddSub3'
+  },
+  'Line_1739' => {
+    'CodeInstance' => 'noise_remover_struct/wavelet/subsystem3/addsub4',
+    'Instance' => 'addsub4',
+    'SimulinkInstance' => 'noise_remover/Wavelet/Subsystem3/AddSub4'
+  },
+  'Line_1770' => {
+    'CodeInstance' => 'noise_remover_struct/wavelet/subsystem3/addsub5',
+    'Instance' => 'addsub5',
+    'SimulinkInstance' => 'noise_remover/Wavelet/Subsystem3/AddSub5'
+  },
+  'Line_1801' => {
+    'CodeInstance' => 'noise_remover_struct/wavelet/subsystem3/convert5',
+    'Instance' => 'convert5',
+    'SimulinkInstance' => 'noise_remover/Wavelet/Subsystem3/Convert5'
+  },
+  'Line_1822' => {
+    'CodeInstance' => 'noise_remover_struct/wavelet/subsystem3/delay1',
+    'Instance' => 'delay1',
+    'SimulinkInstance' => 'noise_remover/Wavelet/Subsystem3/Delay1'
+  },
+  'Line_1837' => {
+    'CodeInstance' => 'noise_remover_struct/wavelet/subsystem3/delay2',
+    'Instance' => 'delay2',
+    'SimulinkInstance' => 'noise_remover/Wavelet/Subsystem3/Delay2'
+  },
+  'Line_1852' => {
+    'CodeInstance' => 'noise_remover_struct/wavelet/subsystem3/delay3',
+    'Instance' => 'delay3',
+    'SimulinkInstance' => 'noise_remover/Wavelet/Subsystem3/Delay3'
+  },
+  'Line_1867' => {
+    'CodeInstance' => 'noise_remover_struct/wavelet/subsystem3/delay4',
+    'Instance' => 'delay4',
+    'SimulinkInstance' => 'noise_remover/Wavelet/Subsystem3/Delay4'
+  },
+  'Line_1882' => {
+    'CodeInstance' => 'noise_remover_struct/wavelet/subsystem3/delay6',
+    'Instance' => 'delay6',
+    'SimulinkInstance' => 'noise_remover/Wavelet/Subsystem3/Delay6'
+  },
+  'Line_1897' => {
+    'CodeInstance' => 'noise_remover_struct/wavelet/subsystem3/scale2',
+    'Instance' => 'scale2',
+    'SimulinkInstance' => 'noise_remover/Wavelet/Subsystem3/Scale2'
+  },
+  'Line_1938' => {
+    'CodeInstance' => 'noise_remover_struct/wavelet/subsystem4/noise_canceler/th/absolute',
+    'Instance' => 'absolute',
+    'SimulinkInstance' => 'noise_remover/Wavelet/Subsystem4/noise_canceler/th/Absolute'
+  },
+  'Line_1946' => {
+    'CodeInstance' => 'noise_remover_struct/wavelet/subsystem4/noise_canceler/th/addsub',
+    'Instance' => 'addsub',
+    'SimulinkInstance' => 'noise_remover/Wavelet/Subsystem4/noise_canceler/th/AddSub'
+  },
+  'Line_1977' => {
+    'CodeInstance' => 'noise_remover_struct/wavelet/subsystem4/noise_canceler/th/addsub1',
+    'Instance' => 'addsub1',
+    'SimulinkInstance' => 'noise_remover/Wavelet/Subsystem4/noise_canceler/th/AddSub1'
+  },
+  'Line_2008' => {
+    'CodeInstance' => 'noise_remover_struct/wavelet/subsystem4/noise_canceler/th/constant1',
+    'Instance' => 'constant1',
+    'SimulinkInstance' => 'noise_remover/Wavelet/Subsystem4/noise_canceler/th/Constant1'
+  },
+  'Line_2015' => {
+    'CodeInstance' => 'noise_remover_struct/wavelet/subsystem4/noise_canceler/th/constant2',
+    'Instance' => 'constant2',
+    'SimulinkInstance' => 'noise_remover/Wavelet/Subsystem4/noise_canceler/th/Constant2'
+  },
+  'Line_2022' => {
+    'CodeInstance' => 'noise_remover_struct/wavelet/subsystem4/noise_canceler/th/convert5',
+    'Instance' => 'convert5',
+    'SimulinkInstance' => 'noise_remover/Wavelet/Subsystem4/noise_canceler/th/Convert5'
+  },
+  'Line_2043' => {
+    'CodeInstance' => 'noise_remover_struct/wavelet/subsystem4/noise_canceler/th/mux',
+    'Instance' => 'mux',
+    'SimulinkInstance' => 'noise_remover/Wavelet/Subsystem4/noise_canceler/th/Mux'
+  },
+  'Line_2053' => {
+    'CodeInstance' => 'noise_remover_struct/wavelet/subsystem4/noise_canceler/th/register_x0',
+    'Instance' => 'register_x0',
+    'SimulinkInstance' => 'noise_remover/Wavelet/Subsystem4/noise_canceler/th/Register'
+  },
+  'Line_2066' => {
+    'CodeInstance' => 'noise_remover_struct/wavelet/subsystem4/noise_canceler/th/relational1',
+    'Instance' => 'relational1',
+    'SimulinkInstance' => 'noise_remover/Wavelet/Subsystem4/noise_canceler/th/Relational1'
+  },
+  'Line_2075' => {
+    'CodeInstance' => 'noise_remover_struct/wavelet/subsystem4/noise_canceler/th/shift2',
+    'Instance' => 'shift2',
+    'SimulinkInstance' => 'noise_remover/Wavelet/Subsystem4/noise_canceler/th/Shift2'
+  },
+  'Line_210' => {
+    'CodeInstance' => 'noise_remover_struct/wavelet/subsystem1/noise_canceler/th',
+    'Instance' => 'th',
+    'SimulinkInstance' => 'th'
+  },
+  'Line_2115' => {
+    'CodeInstance' => 'noise_remover_struct/wavelet/subsystem4/noise_canceler/th',
+    'Instance' => 'th',
+    'SimulinkInstance' => 'th'
+  },
+  'Line_2122' => {
+    'CodeInstance' => 'noise_remover_struct/wavelet/subsystem4/noise_canceler/addsub1',
+    'Instance' => 'addsub1',
+    'SimulinkInstance' => 'noise_remover/Wavelet/Subsystem4/noise_canceler/AddSub1'
+  },
+  'Line_2153' => {
+    'CodeInstance' => 'noise_remover_struct/wavelet/subsystem4/noise_canceler/addsub2',
+    'Instance' => 'addsub2',
+    'SimulinkInstance' => 'noise_remover/Wavelet/Subsystem4/noise_canceler/AddSub2'
+  },
+  'Line_217' => {
+    'CodeInstance' => 'noise_remover_struct/wavelet/subsystem1/noise_canceler/addsub1',
+    'Instance' => 'addsub1',
+    'SimulinkInstance' => 'noise_remover/Wavelet/Subsystem1/noise_canceler/AddSub1'
+  },
+  'Line_2184' => {
+    'CodeInstance' => 'noise_remover_struct/wavelet/subsystem4/noise_canceler/bitbasher',
+    'Instance' => 'bitbasher',
+    'SimulinkInstance' => 'noise_remover/Wavelet/Subsystem4/noise_canceler/BitBasher'
+  },
+  'Line_2193' => {
+    'CodeInstance' => 'noise_remover_struct/wavelet/subsystem4/noise_canceler/constant2',
+    'Instance' => 'constant2',
+    'SimulinkInstance' => 'noise_remover/Wavelet/Subsystem4/noise_canceler/Constant2'
+  },
+  'Line_2200' => {
+    'CodeInstance' => 'noise_remover_struct/wavelet/subsystem4/noise_canceler/inverter',
+    'Instance' => 'inverter',
+    'SimulinkInstance' => 'noise_remover/Wavelet/Subsystem4/noise_canceler/Inverter'
+  },
+  'Line_2208' => {
+    'CodeInstance' => 'noise_remover_struct/wavelet/subsystem4/noise_canceler/mux',
+    'Instance' => 'mux',
+    'SimulinkInstance' => 'noise_remover/Wavelet/Subsystem4/noise_canceler/Mux'
+  },
+  'Line_2220' => {
+    'CodeInstance' => 'noise_remover_struct/wavelet/subsystem4/noise_canceler/relational',
+    'Instance' => 'relational',
+    'SimulinkInstance' => 'noise_remover/Wavelet/Subsystem4/noise_canceler/Relational'
+  },
+  'Line_2229' => {
+    'CodeInstance' => 'noise_remover_struct/wavelet/subsystem4/noise_canceler/relational1',
+    'Instance' => 'relational1',
+    'SimulinkInstance' => 'noise_remover/Wavelet/Subsystem4/noise_canceler/Relational1'
+  },
+  'Line_2274' => {
+    'CodeInstance' => 'noise_remover_struct/wavelet/subsystem4/noise_canceler',
+    'Instance' => 'noise_canceler',
+    'SimulinkInstance' => 'noise_canceler'
+  },
+  'Line_2281' => {
+    'CodeInstance' => 'noise_remover_struct/wavelet/subsystem4/addsub1',
+    'Instance' => 'addsub1',
+    'SimulinkInstance' => 'noise_remover/Wavelet/Subsystem4/AddSub1'
+  },
+  'Line_2312' => {
+    'CodeInstance' => 'noise_remover_struct/wavelet/subsystem4/addsub2',
+    'Instance' => 'addsub2',
+    'SimulinkInstance' => 'noise_remover/Wavelet/Subsystem4/AddSub2'
+  },
+  'Line_2343' => {
+    'CodeInstance' => 'noise_remover_struct/wavelet/subsystem4/addsub3',
+    'Instance' => 'addsub3',
+    'SimulinkInstance' => 'noise_remover/Wavelet/Subsystem4/AddSub3'
+  },
+  'Line_2374' => {
+    'CodeInstance' => 'noise_remover_struct/wavelet/subsystem4/addsub4',
+    'Instance' => 'addsub4',
+    'SimulinkInstance' => 'noise_remover/Wavelet/Subsystem4/AddSub4'
+  },
+  'Line_2405' => {
+    'CodeInstance' => 'noise_remover_struct/wavelet/subsystem4/addsub5',
+    'Instance' => 'addsub5',
+    'SimulinkInstance' => 'noise_remover/Wavelet/Subsystem4/AddSub5'
+  },
+  'Line_2436' => {
+    'CodeInstance' => 'noise_remover_struct/wavelet/subsystem4/convert5',
+    'Instance' => 'convert5',
+    'SimulinkInstance' => 'noise_remover/Wavelet/Subsystem4/Convert5'
+  },
+  'Line_2457' => {
+    'CodeInstance' => 'noise_remover_struct/wavelet/subsystem4/delay1',
+    'Instance' => 'delay1',
+    'SimulinkInstance' => 'noise_remover/Wavelet/Subsystem4/Delay1'
+  },
+  'Line_2472' => {
+    'CodeInstance' => 'noise_remover_struct/wavelet/subsystem4/delay2',
+    'Instance' => 'delay2',
+    'SimulinkInstance' => 'noise_remover/Wavelet/Subsystem4/Delay2'
+  },
+  'Line_248' => {
+    'CodeInstance' => 'noise_remover_struct/wavelet/subsystem1/noise_canceler/addsub2',
+    'Instance' => 'addsub2',
+    'SimulinkInstance' => 'noise_remover/Wavelet/Subsystem1/noise_canceler/AddSub2'
+  },
+  'Line_2487' => {
+    'CodeInstance' => 'noise_remover_struct/wavelet/subsystem4/delay3',
+    'Instance' => 'delay3',
+    'SimulinkInstance' => 'noise_remover/Wavelet/Subsystem4/Delay3'
+  },
+  'Line_2502' => {
+    'CodeInstance' => 'noise_remover_struct/wavelet/subsystem4/delay4',
+    'Instance' => 'delay4',
+    'SimulinkInstance' => 'noise_remover/Wavelet/Subsystem4/Delay4'
+  },
+  'Line_2517' => {
+    'CodeInstance' => 'noise_remover_struct/wavelet/subsystem4/delay6',
+    'Instance' => 'delay6',
+    'SimulinkInstance' => 'noise_remover/Wavelet/Subsystem4/Delay6'
+  },
+  'Line_2532' => {
+    'CodeInstance' => 'noise_remover_struct/wavelet/subsystem4/scale2',
+    'Instance' => 'scale2',
+    'SimulinkInstance' => 'noise_remover/Wavelet/Subsystem4/Scale2'
+  },
+  'Line_2573' => {
+    'CodeInstance' => 'noise_remover_struct/wavelet/subsystem5/noise_canceler/th/absolute',
+    'Instance' => 'absolute',
+    'SimulinkInstance' => 'noise_remover/Wavelet/Subsystem5/noise_canceler/th/Absolute'
+  },
+  'Line_2581' => {
+    'CodeInstance' => 'noise_remover_struct/wavelet/subsystem5/noise_canceler/th/addsub',
+    'Instance' => 'addsub',
+    'SimulinkInstance' => 'noise_remover/Wavelet/Subsystem5/noise_canceler/th/AddSub'
+  },
+  'Line_2612' => {
+    'CodeInstance' => 'noise_remover_struct/wavelet/subsystem5/noise_canceler/th/addsub1',
+    'Instance' => 'addsub1',
+    'SimulinkInstance' => 'noise_remover/Wavelet/Subsystem5/noise_canceler/th/AddSub1'
+  },
+  'Line_2643' => {
+    'CodeInstance' => 'noise_remover_struct/wavelet/subsystem5/noise_canceler/th/constant1',
+    'Instance' => 'constant1',
+    'SimulinkInstance' => 'noise_remover/Wavelet/Subsystem5/noise_canceler/th/Constant1'
+  },
+  'Line_2650' => {
+    'CodeInstance' => 'noise_remover_struct/wavelet/subsystem5/noise_canceler/th/constant2',
+    'Instance' => 'constant2',
+    'SimulinkInstance' => 'noise_remover/Wavelet/Subsystem5/noise_canceler/th/Constant2'
+  },
+  'Line_2657' => {
+    'CodeInstance' => 'noise_remover_struct/wavelet/subsystem5/noise_canceler/th/convert5',
+    'Instance' => 'convert5',
+    'SimulinkInstance' => 'noise_remover/Wavelet/Subsystem5/noise_canceler/th/Convert5'
+  },
+  'Line_2678' => {
+    'CodeInstance' => 'noise_remover_struct/wavelet/subsystem5/noise_canceler/th/mux',
+    'Instance' => 'mux',
+    'SimulinkInstance' => 'noise_remover/Wavelet/Subsystem5/noise_canceler/th/Mux'
+  },
+  'Line_2688' => {
+    'CodeInstance' => 'noise_remover_struct/wavelet/subsystem5/noise_canceler/th/register_x0',
+    'Instance' => 'register_x0',
+    'SimulinkInstance' => 'noise_remover/Wavelet/Subsystem5/noise_canceler/th/Register'
+  },
+  'Line_2701' => {
+    'CodeInstance' => 'noise_remover_struct/wavelet/subsystem5/noise_canceler/th/relational1',
+    'Instance' => 'relational1',
+    'SimulinkInstance' => 'noise_remover/Wavelet/Subsystem5/noise_canceler/th/Relational1'
+  },
+  'Line_2710' => {
+    'CodeInstance' => 'noise_remover_struct/wavelet/subsystem5/noise_canceler/th/shift2',
+    'Instance' => 'shift2',
+    'SimulinkInstance' => 'noise_remover/Wavelet/Subsystem5/noise_canceler/th/Shift2'
+  },
+  'Line_2750' => {
+    'CodeInstance' => 'noise_remover_struct/wavelet/subsystem5/noise_canceler/th',
+    'Instance' => 'th',
+    'SimulinkInstance' => 'th'
+  },
+  'Line_2757' => {
+    'CodeInstance' => 'noise_remover_struct/wavelet/subsystem5/noise_canceler/addsub1',
+    'Instance' => 'addsub1',
+    'SimulinkInstance' => 'noise_remover/Wavelet/Subsystem5/noise_canceler/AddSub1'
+  },
+  'Line_2788' => {
+    'CodeInstance' => 'noise_remover_struct/wavelet/subsystem5/noise_canceler/addsub2',
+    'Instance' => 'addsub2',
+    'SimulinkInstance' => 'noise_remover/Wavelet/Subsystem5/noise_canceler/AddSub2'
+  },
+  'Line_279' => {
+    'CodeInstance' => 'noise_remover_struct/wavelet/subsystem1/noise_canceler/bitbasher',
+    'Instance' => 'bitbasher',
+    'SimulinkInstance' => 'noise_remover/Wavelet/Subsystem1/noise_canceler/BitBasher'
+  },
+  'Line_2819' => {
+    'CodeInstance' => 'noise_remover_struct/wavelet/subsystem5/noise_canceler/bitbasher',
+    'Instance' => 'bitbasher',
+    'SimulinkInstance' => 'noise_remover/Wavelet/Subsystem5/noise_canceler/BitBasher'
+  },
+  'Line_2828' => {
+    'CodeInstance' => 'noise_remover_struct/wavelet/subsystem5/noise_canceler/constant2',
+    'Instance' => 'constant2',
+    'SimulinkInstance' => 'noise_remover/Wavelet/Subsystem5/noise_canceler/Constant2'
+  },
+  'Line_2835' => {
+    'CodeInstance' => 'noise_remover_struct/wavelet/subsystem5/noise_canceler/inverter',
+    'Instance' => 'inverter',
+    'SimulinkInstance' => 'noise_remover/Wavelet/Subsystem5/noise_canceler/Inverter'
+  },
+  'Line_2843' => {
+    'CodeInstance' => 'noise_remover_struct/wavelet/subsystem5/noise_canceler/mux',
+    'Instance' => 'mux',
+    'SimulinkInstance' => 'noise_remover/Wavelet/Subsystem5/noise_canceler/Mux'
+  },
+  'Line_2855' => {
+    'CodeInstance' => 'noise_remover_struct/wavelet/subsystem5/noise_canceler/relational',
+    'Instance' => 'relational',
+    'SimulinkInstance' => 'noise_remover/Wavelet/Subsystem5/noise_canceler/Relational'
+  },
+  'Line_2864' => {
+    'CodeInstance' => 'noise_remover_struct/wavelet/subsystem5/noise_canceler/relational1',
+    'Instance' => 'relational1',
+    'SimulinkInstance' => 'noise_remover/Wavelet/Subsystem5/noise_canceler/Relational1'
+  },
+  'Line_288' => {
+    'CodeInstance' => 'noise_remover_struct/wavelet/subsystem1/noise_canceler/constant2',
+    'Instance' => 'constant2',
+    'SimulinkInstance' => 'noise_remover/Wavelet/Subsystem1/noise_canceler/Constant2'
+  },
+  'Line_2909' => {
+    'CodeInstance' => 'noise_remover_struct/wavelet/subsystem5/noise_canceler',
+    'Instance' => 'noise_canceler',
+    'SimulinkInstance' => 'noise_canceler'
+  },
+  'Line_2916' => {
+    'CodeInstance' => 'noise_remover_struct/wavelet/subsystem5/addsub1',
+    'Instance' => 'addsub1',
+    'SimulinkInstance' => 'noise_remover/Wavelet/Subsystem5/AddSub1'
+  },
+  'Line_2947' => {
+    'CodeInstance' => 'noise_remover_struct/wavelet/subsystem5/addsub2',
+    'Instance' => 'addsub2',
+    'SimulinkInstance' => 'noise_remover/Wavelet/Subsystem5/AddSub2'
+  },
+  'Line_295' => {
+    'CodeInstance' => 'noise_remover_struct/wavelet/subsystem1/noise_canceler/inverter',
+    'Instance' => 'inverter',
+    'SimulinkInstance' => 'noise_remover/Wavelet/Subsystem1/noise_canceler/Inverter'
+  },
+  'Line_2978' => {
+    'CodeInstance' => 'noise_remover_struct/wavelet/subsystem5/addsub3',
+    'Instance' => 'addsub3',
+    'SimulinkInstance' => 'noise_remover/Wavelet/Subsystem5/AddSub3'
+  },
+  'Line_3009' => {
+    'CodeInstance' => 'noise_remover_struct/wavelet/subsystem5/addsub4',
+    'Instance' => 'addsub4',
+    'SimulinkInstance' => 'noise_remover/Wavelet/Subsystem5/AddSub4'
+  },
+  'Line_303' => {
+    'CodeInstance' => 'noise_remover_struct/wavelet/subsystem1/noise_canceler/mux',
+    'Instance' => 'mux',
+    'SimulinkInstance' => 'noise_remover/Wavelet/Subsystem1/noise_canceler/Mux'
+  },
+  'Line_3040' => {
+    'CodeInstance' => 'noise_remover_struct/wavelet/subsystem5/addsub5',
+    'Instance' => 'addsub5',
+    'SimulinkInstance' => 'noise_remover/Wavelet/Subsystem5/AddSub5'
+  },
+  'Line_3071' => {
+    'CodeInstance' => 'noise_remover_struct/wavelet/subsystem5/convert5',
+    'Instance' => 'convert5',
+    'SimulinkInstance' => 'noise_remover/Wavelet/Subsystem5/Convert5'
+  },
+  'Line_3092' => {
+    'CodeInstance' => 'noise_remover_struct/wavelet/subsystem5/delay1',
+    'Instance' => 'delay1',
+    'SimulinkInstance' => 'noise_remover/Wavelet/Subsystem5/Delay1'
+  },
+  'Line_3107' => {
+    'CodeInstance' => 'noise_remover_struct/wavelet/subsystem5/delay2',
+    'Instance' => 'delay2',
+    'SimulinkInstance' => 'noise_remover/Wavelet/Subsystem5/Delay2'
+  },
+  'Line_3122' => {
+    'CodeInstance' => 'noise_remover_struct/wavelet/subsystem5/delay3',
+    'Instance' => 'delay3',
+    'SimulinkInstance' => 'noise_remover/Wavelet/Subsystem5/Delay3'
+  },
+  'Line_3137' => {
+    'CodeInstance' => 'noise_remover_struct/wavelet/subsystem5/delay4',
+    'Instance' => 'delay4',
+    'SimulinkInstance' => 'noise_remover/Wavelet/Subsystem5/Delay4'
+  },
+  'Line_315' => {
+    'CodeInstance' => 'noise_remover_struct/wavelet/subsystem1/noise_canceler/relational',
+    'Instance' => 'relational',
+    'SimulinkInstance' => 'noise_remover/Wavelet/Subsystem1/noise_canceler/Relational'
+  },
+  'Line_3152' => {
+    'CodeInstance' => 'noise_remover_struct/wavelet/subsystem5/delay6',
+    'Instance' => 'delay6',
+    'SimulinkInstance' => 'noise_remover/Wavelet/Subsystem5/Delay6'
+  },
+  'Line_3167' => {
+    'CodeInstance' => 'noise_remover_struct/wavelet/subsystem5/scale2',
+    'Instance' => 'scale2',
+    'SimulinkInstance' => 'noise_remover/Wavelet/Subsystem5/Scale2'
+  },
+  'Line_3203' => {
+    'CodeInstance' => 'noise_remover_struct/wavelet/subsystem1',
+    'Instance' => 'subsystem1',
+    'SimulinkInstance' => 'Subsystem1'
+  },
+  'Line_3210' => {
+    'CodeInstance' => 'noise_remover_struct/wavelet/subsystem2',
+    'Instance' => 'subsystem2',
+    'SimulinkInstance' => 'Subsystem2'
+  },
+  'Line_3217' => {
+    'CodeInstance' => 'noise_remover_struct/wavelet/subsystem3',
+    'Instance' => 'subsystem3',
+    'SimulinkInstance' => 'Subsystem3'
+  },
+  'Line_3224' => {
+    'CodeInstance' => 'noise_remover_struct/wavelet/subsystem4',
+    'Instance' => 'subsystem4',
+    'SimulinkInstance' => 'Subsystem4'
+  },
+  'Line_3231' => {
+    'CodeInstance' => 'noise_remover_struct/wavelet/subsystem5',
+    'Instance' => 'subsystem5',
+    'SimulinkInstance' => 'Subsystem5'
+  },
+  'Line_324' => {
+    'CodeInstance' => 'noise_remover_struct/wavelet/subsystem1/noise_canceler/relational1',
+    'Instance' => 'relational1',
+    'SimulinkInstance' => 'noise_remover/Wavelet/Subsystem1/noise_canceler/Relational1'
+  },
+  'Line_3262' => {
+    'CodeInstance' => 'noise_remover_struct/wavelet',
+    'Instance' => 'wavelet',
+    'SimulinkInstance' => 'Wavelet'
+  },
+  'Line_3286' => {
+    'CodeInstance' => 'noise_remover_default_clock_driver/clockdriver',
+    'Instance' => 'clockdriver',
+    'SimulinkInstance' => ''
+  },
+  'Line_33' => {
+    'CodeInstance' => 'noise_remover_struct/wavelet/subsystem1/noise_canceler/th/absolute',
+    'Instance' => 'absolute',
+    'SimulinkInstance' => 'noise_remover/Wavelet/Subsystem1/noise_canceler/th/Absolute'
+  },
+  'Line_3317' => {
+    'CodeInstance' => 'noise_remover_default_clock_driver',
+    'Instance' => 'noise_remover_default_clock_driver',
+    'SimulinkInstance' => ''
+  },
+  'Line_3325' => {
+    'CodeInstance' => 'noise_remover_struct',
+    'Instance' => 'noise_remover_struct',
+    'SimulinkInstance' => 'noise_remover'
+  },
+  'Line_369' => {
+    'CodeInstance' => 'noise_remover_struct/wavelet/subsystem1/noise_canceler',
+    'Instance' => 'noise_canceler',
+    'SimulinkInstance' => 'noise_canceler'
+  },
+  'Line_376' => {
+    'CodeInstance' => 'noise_remover_struct/wavelet/subsystem1/addsub1',
+    'Instance' => 'addsub1',
+    'SimulinkInstance' => 'noise_remover/Wavelet/Subsystem1/AddSub1'
+  },
+  'Line_407' => {
+    'CodeInstance' => 'noise_remover_struct/wavelet/subsystem1/addsub2',
+    'Instance' => 'addsub2',
+    'SimulinkInstance' => 'noise_remover/Wavelet/Subsystem1/AddSub2'
+  },
+  'Line_41' => {
+    'CodeInstance' => 'noise_remover_struct/wavelet/subsystem1/noise_canceler/th/addsub',
+    'Instance' => 'addsub',
+    'SimulinkInstance' => 'noise_remover/Wavelet/Subsystem1/noise_canceler/th/AddSub'
+  },
+  'Line_438' => {
+    'CodeInstance' => 'noise_remover_struct/wavelet/subsystem1/addsub3',
+    'Instance' => 'addsub3',
+    'SimulinkInstance' => 'noise_remover/Wavelet/Subsystem1/AddSub3'
+  },
+  'Line_469' => {
+    'CodeInstance' => 'noise_remover_struct/wavelet/subsystem1/addsub4',
+    'Instance' => 'addsub4',
+    'SimulinkInstance' => 'noise_remover/Wavelet/Subsystem1/AddSub4'
+  },
+  'Line_500' => {
+    'CodeInstance' => 'noise_remover_struct/wavelet/subsystem1/addsub5',
+    'Instance' => 'addsub5',
+    'SimulinkInstance' => 'noise_remover/Wavelet/Subsystem1/AddSub5'
+  },
+  'Line_531' => {
+    'CodeInstance' => 'noise_remover_struct/wavelet/subsystem1/convert5',
+    'Instance' => 'convert5',
+    'SimulinkInstance' => 'noise_remover/Wavelet/Subsystem1/Convert5'
+  },
+  'Line_552' => {
+    'CodeInstance' => 'noise_remover_struct/wavelet/subsystem1/delay1',
+    'Instance' => 'delay1',
+    'SimulinkInstance' => 'noise_remover/Wavelet/Subsystem1/Delay1'
+  },
+  'Line_567' => {
+    'CodeInstance' => 'noise_remover_struct/wavelet/subsystem1/delay2',
+    'Instance' => 'delay2',
+    'SimulinkInstance' => 'noise_remover/Wavelet/Subsystem1/Delay2'
+  },
+  'Line_582' => {
+    'CodeInstance' => 'noise_remover_struct/wavelet/subsystem1/delay3',
+    'Instance' => 'delay3',
+    'SimulinkInstance' => 'noise_remover/Wavelet/Subsystem1/Delay3'
+  },
+  'Line_597' => {
+    'CodeInstance' => 'noise_remover_struct/wavelet/subsystem1/delay4',
+    'Instance' => 'delay4',
+    'SimulinkInstance' => 'noise_remover/Wavelet/Subsystem1/Delay4'
+  },
+  'Line_612' => {
+    'CodeInstance' => 'noise_remover_struct/wavelet/subsystem1/delay6',
+    'Instance' => 'delay6',
+    'SimulinkInstance' => 'noise_remover/Wavelet/Subsystem1/Delay6'
+  },
+  'Line_627' => {
+    'CodeInstance' => 'noise_remover_struct/wavelet/subsystem1/scale2',
+    'Instance' => 'scale2',
+    'SimulinkInstance' => 'noise_remover/Wavelet/Subsystem1/Scale2'
+  },
+  'Line_668' => {
+    'CodeInstance' => 'noise_remover_struct/wavelet/subsystem2/noise_canceler/th/absolute',
+    'Instance' => 'absolute',
+    'SimulinkInstance' => 'noise_remover/Wavelet/Subsystem2/noise_canceler/th/Absolute'
+  },
+  'Line_676' => {
+    'CodeInstance' => 'noise_remover_struct/wavelet/subsystem2/noise_canceler/th/addsub',
+    'Instance' => 'addsub',
+    'SimulinkInstance' => 'noise_remover/Wavelet/Subsystem2/noise_canceler/th/AddSub'
+  },
+  'Line_707' => {
+    'CodeInstance' => 'noise_remover_struct/wavelet/subsystem2/noise_canceler/th/addsub1',
+    'Instance' => 'addsub1',
+    'SimulinkInstance' => 'noise_remover/Wavelet/Subsystem2/noise_canceler/th/AddSub1'
+  },
+  'Line_72' => {
+    'CodeInstance' => 'noise_remover_struct/wavelet/subsystem1/noise_canceler/th/addsub1',
+    'Instance' => 'addsub1',
+    'SimulinkInstance' => 'noise_remover/Wavelet/Subsystem1/noise_canceler/th/AddSub1'
+  },
+  'Line_738' => {
+    'CodeInstance' => 'noise_remover_struct/wavelet/subsystem2/noise_canceler/th/constant1',
+    'Instance' => 'constant1',
+    'SimulinkInstance' => 'noise_remover/Wavelet/Subsystem2/noise_canceler/th/Constant1'
+  },
+  'Line_745' => {
+    'CodeInstance' => 'noise_remover_struct/wavelet/subsystem2/noise_canceler/th/constant2',
+    'Instance' => 'constant2',
+    'SimulinkInstance' => 'noise_remover/Wavelet/Subsystem2/noise_canceler/th/Constant2'
+  },
+  'Line_752' => {
+    'CodeInstance' => 'noise_remover_struct/wavelet/subsystem2/noise_canceler/th/convert5',
+    'Instance' => 'convert5',
+    'SimulinkInstance' => 'noise_remover/Wavelet/Subsystem2/noise_canceler/th/Convert5'
+  },
+  'Line_773' => {
+    'CodeInstance' => 'noise_remover_struct/wavelet/subsystem2/noise_canceler/th/mux',
+    'Instance' => 'mux',
+    'SimulinkInstance' => 'noise_remover/Wavelet/Subsystem2/noise_canceler/th/Mux'
+  },
+  'Line_783' => {
+    'CodeInstance' => 'noise_remover_struct/wavelet/subsystem2/noise_canceler/th/register_x0',
+    'Instance' => 'register_x0',
+    'SimulinkInstance' => 'noise_remover/Wavelet/Subsystem2/noise_canceler/th/Register'
+  },
+  'Line_796' => {
+    'CodeInstance' => 'noise_remover_struct/wavelet/subsystem2/noise_canceler/th/relational1',
+    'Instance' => 'relational1',
+    'SimulinkInstance' => 'noise_remover/Wavelet/Subsystem2/noise_canceler/th/Relational1'
+  },
+  'Line_805' => {
+    'CodeInstance' => 'noise_remover_struct/wavelet/subsystem2/noise_canceler/th/shift2',
+    'Instance' => 'shift2',
+    'SimulinkInstance' => 'noise_remover/Wavelet/Subsystem2/noise_canceler/th/Shift2'
+  },
+  'Line_845' => {
+    'CodeInstance' => 'noise_remover_struct/wavelet/subsystem2/noise_canceler/th',
+    'Instance' => 'th',
+    'SimulinkInstance' => 'th'
+  },
+  'Line_852' => {
+    'CodeInstance' => 'noise_remover_struct/wavelet/subsystem2/noise_canceler/addsub1',
+    'Instance' => 'addsub1',
+    'SimulinkInstance' => 'noise_remover/Wavelet/Subsystem2/noise_canceler/AddSub1'
+  },
+  'Line_883' => {
+    'CodeInstance' => 'noise_remover_struct/wavelet/subsystem2/noise_canceler/addsub2',
+    'Instance' => 'addsub2',
+    'SimulinkInstance' => 'noise_remover/Wavelet/Subsystem2/noise_canceler/AddSub2'
+  },
+  'Line_914' => {
+    'CodeInstance' => 'noise_remover_struct/wavelet/subsystem2/noise_canceler/bitbasher',
+    'Instance' => 'bitbasher',
+    'SimulinkInstance' => 'noise_remover/Wavelet/Subsystem2/noise_canceler/BitBasher'
+  },
+  'Line_923' => {
+    'CodeInstance' => 'noise_remover_struct/wavelet/subsystem2/noise_canceler/constant2',
+    'Instance' => 'constant2',
+    'SimulinkInstance' => 'noise_remover/Wavelet/Subsystem2/noise_canceler/Constant2'
+  },
+  'Line_930' => {
+    'CodeInstance' => 'noise_remover_struct/wavelet/subsystem2/noise_canceler/inverter',
+    'Instance' => 'inverter',
+    'SimulinkInstance' => 'noise_remover/Wavelet/Subsystem2/noise_canceler/Inverter'
+  },
+  'Line_938' => {
+    'CodeInstance' => 'noise_remover_struct/wavelet/subsystem2/noise_canceler/mux',
+    'Instance' => 'mux',
+    'SimulinkInstance' => 'noise_remover/Wavelet/Subsystem2/noise_canceler/Mux'
+  },
+  'Line_950' => {
+    'CodeInstance' => 'noise_remover_struct/wavelet/subsystem2/noise_canceler/relational',
+    'Instance' => 'relational',
+    'SimulinkInstance' => 'noise_remover/Wavelet/Subsystem2/noise_canceler/Relational'
+  },
+  'Line_959' => {
+    'CodeInstance' => 'noise_remover_struct/wavelet/subsystem2/noise_canceler/relational1',
+    'Instance' => 'relational1',
+    'SimulinkInstance' => 'noise_remover/Wavelet/Subsystem2/noise_canceler/Relational1'
+  }
+}

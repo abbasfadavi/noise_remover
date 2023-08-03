@@ -1,0 +1,213 @@
+{
+  'Line_154' => {
+    'CodeInstance' => 'costasloop_struct/carrier_recovery/phase_error_detector/addsub',
+    'Instance' => 'addsub',
+    'SimulinkInstance' => 'CostasLoop/carrier 
+recovery/Phase Error
+Detector/AddSub'
+  },
+  'Line_185' => {
+    'CodeInstance' => 'costasloop_struct/carrier_recovery/phase_error_detector/constant1',
+    'Instance' => 'constant1',
+    'SimulinkInstance' => 'CostasLoop/carrier 
+recovery/Phase Error
+Detector/Constant1'
+  },
+  'Line_192' => {
+    'CodeInstance' => 'costasloop_struct/carrier_recovery/phase_error_detector/constant2',
+    'Instance' => 'constant2',
+    'SimulinkInstance' => 'CostasLoop/carrier 
+recovery/Phase Error
+Detector/Constant2'
+  },
+  'Line_199' => {
+    'CodeInstance' => 'costasloop_struct/carrier_recovery/phase_error_detector/inverter',
+    'Instance' => 'inverter',
+    'SimulinkInstance' => 'CostasLoop/carrier 
+recovery/Phase Error
+Detector/Inverter'
+  },
+  'Line_207' => {
+    'CodeInstance' => 'costasloop_struct/carrier_recovery/phase_error_detector/inverter1',
+    'Instance' => 'inverter1',
+    'SimulinkInstance' => 'CostasLoop/carrier 
+recovery/Phase Error
+Detector/Inverter1'
+  },
+  'Line_215' => {
+    'CodeInstance' => 'costasloop_struct/carrier_recovery/phase_error_detector/mux',
+    'Instance' => 'mux',
+    'SimulinkInstance' => 'CostasLoop/carrier 
+recovery/Phase Error
+Detector/Mux'
+  },
+  'Line_225' => {
+    'CodeInstance' => 'costasloop_struct/carrier_recovery/phase_error_detector/mux1',
+    'Instance' => 'mux1',
+    'SimulinkInstance' => 'CostasLoop/carrier 
+recovery/Phase Error
+Detector/Mux1'
+  },
+  'Line_235' => {
+    'CodeInstance' => 'costasloop_struct/carrier_recovery/phase_error_detector/relational',
+    'Instance' => 'relational',
+    'SimulinkInstance' => 'CostasLoop/carrier 
+recovery/Phase Error
+Detector/Relational'
+  },
+  'Line_244' => {
+    'CodeInstance' => 'costasloop_struct/carrier_recovery/phase_error_detector/relational1',
+    'Instance' => 'relational1',
+    'SimulinkInstance' => 'CostasLoop/carrier 
+recovery/Phase Error
+Detector/Relational1'
+  },
+  'Line_28' => {
+    'CodeInstance' => 'costasloop_struct/carrier_recovery/pi/accumulator',
+    'Instance' => 'accumulator',
+    'SimulinkInstance' => 'CostasLoop/carrier 
+recovery/PI/Accumulator'
+  },
+  'Line_295' => {
+    'CodeInstance' => 'costasloop_struct/carrier_recovery/cmplx_mult/armai',
+    'Instance' => 'armai',
+    'SimulinkInstance' => 'CostasLoop/carrier 
+recovery/cmplx_mult/arMai'
+  },
+  'Line_304' => {
+    'CodeInstance' => 'costasloop_struct/carrier_recovery/cmplx_mult/arpai',
+    'Instance' => 'arpai',
+    'SimulinkInstance' => 'CostasLoop/carrier 
+recovery/cmplx_mult/arPai'
+  },
+  'Line_313' => {
+    'CodeInstance' => 'costasloop_struct/carrier_recovery/cmplx_mult/ar_ai_br',
+    'Instance' => 'ar_ai_br',
+    'SimulinkInstance' => 'CostasLoop/carrier 
+recovery/cmplx_mult/ar_ai_br'
+  },
+  'Line_350' => {
+    'CodeInstance' => 'costasloop_struct/carrier_recovery/cmplx_mult/ar_br_nbi',
+    'Instance' => 'ar_br_nbi',
+    'SimulinkInstance' => 'CostasLoop/carrier 
+recovery/cmplx_mult/ar_br_nbi'
+  },
+  'Line_36' => {
+    'CodeInstance' => 'costasloop_struct/carrier_recovery/pi/accumulator1',
+    'Instance' => 'accumulator1',
+    'SimulinkInstance' => 'CostasLoop/carrier 
+recovery/PI/Accumulator1'
+  },
+  'Line_387' => {
+    'CodeInstance' => 'costasloop_struct/carrier_recovery/cmplx_mult/ar_nai_bi',
+    'Instance' => 'ar_nai_bi',
+    'SimulinkInstance' => 'CostasLoop/carrier 
+recovery/cmplx_mult/ar_nai_bi'
+  },
+  'Line_424' => {
+    'CodeInstance' => 'costasloop_struct/carrier_recovery/cmplx_mult/brpbi',
+    'Instance' => 'brpbi',
+    'SimulinkInstance' => 'CostasLoop/carrier 
+recovery/cmplx_mult/brPbi'
+  },
+  'Line_433' => {
+    'CodeInstance' => 'costasloop_struct/carrier_recovery/cmplx_mult/res_i',
+    'Instance' => 'res_i',
+    'SimulinkInstance' => 'CostasLoop/carrier 
+recovery/cmplx_mult/res_i'
+  },
+  'Line_44' => {
+    'CodeInstance' => 'costasloop_struct/carrier_recovery/pi/addsub',
+    'Instance' => 'addsub',
+    'SimulinkInstance' => 'CostasLoop/carrier 
+recovery/PI/addsub'
+  },
+  'Line_442' => {
+    'CodeInstance' => 'costasloop_struct/carrier_recovery/cmplx_mult/res_r',
+    'Instance' => 'res_r',
+    'SimulinkInstance' => 'CostasLoop/carrier 
+recovery/cmplx_mult/res_r'
+  },
+  'Line_481' => {
+    'CodeInstance' => 'costasloop_struct/carrier_recovery/dds1/shift1',
+    'Instance' => 'shift1',
+    'SimulinkInstance' => 'CostasLoop/carrier 
+recovery/dds1/Shift1'
+  },
+  'Line_489' => {
+    'CodeInstance' => 'costasloop_struct/carrier_recovery/dds1/cos_table',
+    'Instance' => 'cos_table',
+    'SimulinkInstance' => 'CostasLoop/carrier 
+recovery/dds1/cos table'
+  },
+  'Line_507' => {
+    'CodeInstance' => 'costasloop_struct/carrier_recovery/dds1/sin_table',
+    'Instance' => 'sin_table',
+    'SimulinkInstance' => 'CostasLoop/carrier 
+recovery/dds1/sin table'
+  },
+  'Line_525' => {
+    'CodeInstance' => 'costasloop_struct/carrier_recovery/dds1/slice1_0_9',
+    'Instance' => 'slice1_0_9',
+    'SimulinkInstance' => 'CostasLoop/carrier 
+recovery/dds1/slice1_0_9'
+  },
+  'Line_53' => {
+    'CodeInstance' => 'costasloop_struct/carrier_recovery/pi/ki',
+    'Instance' => 'ki',
+    'SimulinkInstance' => 'CostasLoop/carrier 
+recovery/PI/ki'
+  },
+  'Line_536' => {
+    'CodeInstance' => 'costasloop_struct/carrier_recovery/dds1/slice2_0_9',
+    'Instance' => 'slice2_0_9',
+    'SimulinkInstance' => 'CostasLoop/carrier 
+recovery/dds1/slice2_0_9'
+  },
+  'Line_581' => {
+    'CodeInstance' => 'costasloop_struct/carrier_recovery/pi',
+    'Instance' => 'pi',
+    'SimulinkInstance' => 'CostasLoop/carrier  recovery/PI'
+  },
+  'Line_588' => {
+    'CodeInstance' => 'costasloop_struct/carrier_recovery/phase_error_detector',
+    'Instance' => 'phase_error_detector',
+    'SimulinkInstance' => 'CostasLoop/carrier  recovery/Phase Error Detector'
+  },
+  'Line_596' => {
+    'CodeInstance' => 'costasloop_struct/carrier_recovery/cmplx_mult',
+    'Instance' => 'cmplx_mult',
+    'SimulinkInstance' => 'CostasLoop/carrier  recovery/cmplx_mult'
+  },
+  'Line_607' => {
+    'CodeInstance' => 'costasloop_struct/carrier_recovery/dds1',
+    'Instance' => 'dds1',
+    'SimulinkInstance' => 'CostasLoop/carrier  recovery/dds1'
+  },
+  'Line_645' => {
+    'CodeInstance' => 'costasloop_struct/carrier_recovery',
+    'Instance' => 'carrier_recovery',
+    'SimulinkInstance' => 'CostasLoop/carrier  recovery'
+  },
+  'Line_671' => {
+    'CodeInstance' => 'costasloop_default_clock_driver/clockdriver',
+    'Instance' => 'clockdriver',
+    'SimulinkInstance' => ''
+  },
+  'Line_704' => {
+    'CodeInstance' => 'costasloop_default_clock_driver',
+    'Instance' => 'costasloop_default_clock_driver',
+    'SimulinkInstance' => ''
+  },
+  'Line_712' => {
+    'CodeInstance' => 'costasloop_struct',
+    'Instance' => 'costasloop_struct',
+    'SimulinkInstance' => 'CostasLoop'
+  },
+  'Line_86' => {
+    'CodeInstance' => 'costasloop_struct/carrier_recovery/pi/kp',
+    'Instance' => 'kp',
+    'SimulinkInstance' => 'CostasLoop/carrier 
+recovery/PI/kp'
+  }
+}

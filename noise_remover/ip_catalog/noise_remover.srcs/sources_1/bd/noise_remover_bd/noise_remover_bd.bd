@@ -1,0 +1,98 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0x53258CDDFA10CB2F",
+      "design_src": "SYSGEN",
+      "device": "xc7k160tfbg484-2",
+      "gen_directory": "../../../../noise_remover.gen/sources_1/bd/noise_remover_bd",
+      "name": "noise_remover_bd",
+      "rev_ctrl_bd_flag": "RevCtrlBdOff",
+      "synth_flow_mode": "Hierarchical",
+      "tool_version": "2021.2",
+      "validated": "true"
+    },
+    "design_tree": {
+      "noise_remover_1": ""
+    },
+    "ports": {
+      "clk": {
+        "type": "clk",
+        "direction": "I",
+        "parameters": {
+          "CLK_DOMAIN": {
+            "value": "noise_remover_bd_clk",
+            "value_src": "default"
+          },
+          "FREQ_HZ": {
+            "value": "100000000",
+            "value_src": "default"
+          },
+          "FREQ_TOLERANCE_HZ": {
+            "value": "0",
+            "value_src": "default"
+          },
+          "INSERT_VIP": {
+            "value": "0",
+            "value_src": "default"
+          },
+          "PHASE": {
+            "value": "0.0",
+            "value_src": "default"
+          }
+        }
+      },
+      "sig_in": {
+        "type": "data",
+        "direction": "I",
+        "left": "15",
+        "right": "0",
+        "parameters": {
+          "LAYERED_METADATA": {
+            "value": "undef",
+            "value_src": "default"
+          }
+        }
+      },
+      "sig_out": {
+        "type": "data",
+        "direction": "O",
+        "left": "15",
+        "right": "0",
+        "parameters": {
+          "LAYERED_METADATA": {
+            "value": "xilinx.com:interface:datatypes:1.0 {DATA {datatype {name {attribs {resolve_type immediate dependency {} format string minimum {} maximum {}} value {}} bitwidth {attribs {resolve_type immediate dependency {} format long minimum {} maximum {}} value 16} bitoffset {attribs {resolve_type immediate dependency {} format long minimum {} maximum {}} value 0} real {fixed {fractwidth {attribs {resolve_type immediate dependency {} format long minimum {} maximum {}} value 15} signed {attribs {resolve_type immediate dependency {} format bool minimum {} maximum {}} value true}}}}}}",
+            "value_src": "const_prop"
+          }
+        }
+      }
+    },
+    "components": {
+      "noise_remover_1": {
+        "vlnv": "User_Company:SysGen:noise_remover:1.0",
+        "xci_name": "noise_remover_bd_noise_remover_1_0",
+        "xci_path": "ip\\noise_remover_bd_noise_remover_1_0\\noise_remover_bd_noise_remover_1_0.xci",
+        "inst_hier_path": "noise_remover_1"
+      }
+    },
+    "nets": {
+      "clk_1": {
+        "ports": [
+          "clk",
+          "noise_remover_1/clk"
+        ]
+      },
+      "noise_remover_1_sig_out": {
+        "ports": [
+          "noise_remover_1/sig_out",
+          "sig_out"
+        ]
+      },
+      "sig_in_1": {
+        "ports": [
+          "sig_in",
+          "noise_remover_1/sig_in"
+        ]
+      }
+    }
+  }
+}
